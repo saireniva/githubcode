@@ -1,5 +1,87 @@
 <!DOCTYPE html>
 <html>
+ <head> 
+   <style>
+    .navbar-fixed {
+	position: absolute;z-index:999999999;
+	/* display: contents; */
+
+}
+.navbar-fixed li{
+	margin: 10px;
+	height: 20px;
+	width: 40px;
+}
+      #navigation-bar a {
+		display:contents;
+	color: #d65656;
+	font-size: 15px;
+	text-decoration: none;
+	text-align: center;
+	display: block;
+	position: relative;
+	transition: all 0.3s ease;
+	width: 200px;
+	margin: 5px;
+  }
+  #navigation-bar a:hover {
+	color: #EF8354;
+	margin: 20px;
+	
+  }
+  #navigation-bar a::before {
+	content: "";
+	transition: all 0.4s ease-in-out;
+	position: absolute;
+	bottom: 0;
+	right: 50%;
+	left: 50%;
+
+	height: 2px;
+	background-color: #EF8354;
+  }
+  #navigation-bar a:hover::before {
+	right: 0;
+	left: 0;
+  }
+  
+   </style>   <!--Import Google Icon Font-->
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+
+  <link rel='stylesheet' href='https://cdn.rawgit.com/Dogfalo/materialize/master/dist/css/materialize.min.css'>
+
+  <!-- Compiled and minified CSS -->
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+
+  <!-- Compiled and minified JavaScript -->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+      <link rel="stylesheet" href="style.css">
+</head>
+  <div class="row">
+              
+        <div class="col s12 container">
+              <div id="navigation-bar" class="navbar-fixed container col s12 "> 
+                  <nav class="transparent z-depth-0">
+                <ul>                              
+                    <li ><a href="#home" font-size: "40px; style="margin-left: 0px;
+                      "></i><span> Photo Album</span></a></li>
+                    
+                  </ul> 
+                </nav>
+              </div>
+        </div>
+    </div>
+
+
 <body>
   <h1 style="color: #FF0000">YAY! CONGRATULATIONS !</i>
   </h1>
